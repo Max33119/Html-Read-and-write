@@ -46,9 +46,9 @@ def option2():
 def option3():
   html_file = open("index.html", "r")
   print("\nNow viewing index.html---------------------------------------------------------------\n")
-  for friends in html_file.readlines():
+  for lines in html_file.readlines():
     
-    print(friends)
+    print(lines)
     
   
   html_file.close()
